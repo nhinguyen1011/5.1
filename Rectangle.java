@@ -3,9 +3,8 @@ package oop;
 public class Rectangle {
     public float width;
     public float height;
-    public float p;
-    public float s;
-    public boolean testsquare;
+
+   
 
 
 
@@ -32,13 +31,17 @@ public class Rectangle {
     public void setWidth(float width) {
         this.width = width;
     }
-    public float getP() {
+    public float Perimeter() {
         float p=(width+height)*2;
         return p;
     }
 
    
-    
+    public float Square() {
+        float s=(width*height);
+        return s;
+    }
+
 
     
 
