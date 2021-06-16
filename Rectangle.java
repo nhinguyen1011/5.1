@@ -12,7 +12,7 @@ public class Rectangle {
     public Rectangle(float width,float height) {
         this.width = width;
         this.height = height;
-        this.p = p;
+        
     }
 
 
@@ -37,29 +37,19 @@ public class Rectangle {
         return p;
     }
 
-    public void setP(float p) {
-        this.p = p;
-    }
+   
+    
 
-    public float getS() {
-        return s;
-    }
-
-    public void setS(float s) {
-        this.s = s;
-    }
+    
 
     public boolean isTestsquare() {
         if (width == height)
         {
-            System.out.println("square");
+            return true ;
         }
         else
-            System.out.println("not square");
-        return testsquare;
+            return false;
     }
 
-    public void setTestsquare(boolean testsquare) {
-        this.testsquare = testsquare;
-    }
+    
 }
